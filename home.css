@@ -1,0 +1,152 @@
+body {
+  background: #eeeeee; 
+  padding-top: 0%;
+ margin-top: 0%; 
+ overflow-x: hidden; 
+}
+header {
+ background:#424242;
+ color: #fafafa;
+ font-size: 18px; 
+ /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+ padding-left: 2%;
+ position: absolute; 
+ top: 0%;
+ left: 0%;
+ width:100%;
+}
+span {
+ color: #fafafa;
+}
+nav {
+ background: #bdbdbd;
+ top: 20%;
+ /* position: absolute; */
+ display: block;
+ height: 5%;
+ width: 105%;
+ float: right;
+ left: 0%;
+ text-align: right;
+ padding-top: 0.5%;
+ padding-bottom: 1%;
+}
+nav a {
+ padding-right:2% ;
+ text-decoration: none;
+
+}
+.welcome  {
+  margin-top: 10%;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+}
+.welimg {
+  width: 70%;
+  height: 40%;
+}
+
+
+
+
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #000000a6;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+
+
+.container1 {
+  position: relative;
+  width: 50%;
+  margin-top: -31%;
+  left: 50%;
+}
+
+.image1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1:hover .image1 {
+  opacity: 0.5;
+}
+
+.container1:hover .middle1 {
+  opacity: 1;
+}
+
+.text1 {
+  background-color: #000000a6;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+
+
+
+footer {
+  background:#424242;
+  color: #fafafa;
+  position: absolute;
+  bottom: -80%;
+  width: 120%;
+  text-align: center;
+  padding: 1%;
+  margin-left: -10%;
+  box-shadow: 5px 5px 5px 5px #bdbdbd;
+}

@@ -1,0 +1,122 @@
+body {
+  background: #eeeeee; 
+  padding-top: 0%;
+ margin-top: 0%; 
+overflow-x: hidden;
+}
+header {
+ background:#424242;
+ color: #fafafa;
+ font-size: 18px; 
+ /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+ padding-left: 2%;
+ position: absolute; 
+ top: 0%;
+ left: 0%;
+ width:100%;
+}
+span {
+ color: #fafafa;
+}
+nav {
+ background: #bdbdbd;
+ top: 20%;
+ /* position: absolute; */
+ display: block;
+ height: 5%;
+ width: 105%;
+ float: right;
+ left: 0%;
+ text-align: right;
+ padding-top: 0.5%;
+ padding-bottom: 1%;
+}
+nav a {
+ padding-right:2% ;
+ text-decoration: none;
+}
+.fullbody{
+  top: 18%;
+  position: absolute;
+  width: 100%;
+  padding-left: 2%;
+}
+
+.heading {
+  color: #212121;
+}
+.smallheading {
+  color: #424242;
+}
+span {
+  font-size: large;
+  color: #424242;
+
+}
+
+
+/******************/
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 100%;
+
+}
+
+.image {
+
+  width: auto;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.8); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+table td {
+  border: 1px solid black;
+  height: 80%;
+  
+
+}
+.td {
+  padding: 10px;
+  box-shadow: -5px 5px 5px  #031b28;
+}
+
+
+img {
+  transition:transform 0.25s ease;
+}
+
+img:hover {
+  -webkit-transform:scale(1.5); /* or some other value */
+  transform:scale(1.5);
+}
+footer {
+  background:#424242;
+  color: #fafafa;
+  position: absolute;
+  bottom: -28%;
+  width: 120%;
+  text-align: center;
+  padding: 1%;
+  margin-left: -10%;
+  box-shadow: 5px 5px 5px 5px #bdbdbd;
+}

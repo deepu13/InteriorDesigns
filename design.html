@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+  <header>
+    <h1 class="title"><a href="index.html" style="color: white; text-decoration: none;">Interior Designs</a></h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="design.html">Designs</a>
+      <a href="project.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <div class="fullbody">
+    <h1 class="heading">Our Projects!</h1>
+    <div class="modkit">
+      <h1 class="smallheading">Modular Kitchens <span>(Click to enlarge)</span></h1>
+      
+      
+    <table class="table">
+      <div class="row"><tr class="tr">
+      <td class="td">  <div class="column">
+          <img src="images\mod1.jpg" style="width:300px; height: 250px;" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+          </div></td>
+      <td class="td">  <div class="column">
+          <img src="images\mod2.jpg" style="width:300px; height: 250px;" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+          </div></td>
+      <td class="td">  <div class="column">
+          <img src="images\mod3.jpg" style="width:300px; height: 250px;" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+          </div></td>
+      <td class="td">  <div class="column">
+          <img src="images\mod4.jpg" style="width:300px; height: 250px;" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div></td>
+      </div></tr>
+    </table>     
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="images\mod1.jpg" style="width:100%; height: 500px;">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="images\mod2.jpg" style="width:100%; height: 500px;">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="images\mod3.jpg" style="width:100%; height: 500px;">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="images\mod4.jpg" style="width:100%; height: 500px;">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+      
+          <div class="column">
+            <img class="demo cursor" src="images\mod1.jpg" style="width:100%; height: 150px;" onclick="currentSlide(1)" alt="Nature and sunrise">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images\mod2.jpg" style="width:100%; height: 150px;" onclick="currentSlide(2)" alt="Snow">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images\mod3.jpg" style="width:100%; height: 150px;" onclick="currentSlide(3)" alt="Mountains and fjords">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images\mod4.jpg" style="width:100%; height: 150px;" onclick="currentSlide(4)" alt="Northern Lights">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="wardrobe">
+      <h1 class="smallheading">Bedroom Designs</h1>
+      <table class="table">
+        <div class="row"><tr class="tr">
+        <td class="td">  <div class="column">
+            <img src="images\bed1.jpg" style="width:300px; height: 250px;" onclick="openModal1();currentSlide1(1)" class="hover-shadow cursor">
+            </div></td>
+        <td class="td">  <div class="column">
+            <img src="images\bed2.jpg" style="width:300px; height: 250px;" onclick="openModal1();currentSlide1(2)" class="hover-shadow cursor">
+            </div></td>
+        <td class="td">  <div class="column">
+            <img src="images\bed3.jpg" style="width:300px; height: 250px;" onclick="openModal1();currentSlide1(3)" class="hover-shadow cursor">
+            </div></td>
+        <td class="td">  <div class="column">
+            <img src="images\bed4.jpg" style="width:300px; height: 250px;" onclick="openModal1();currentSlide1(4)" class="hover-shadow cursor">
+          </div></td>
+        </div></tr>
+      </table>     
+        <div id="myModal1" class="modal">
+          <span class="close cursor" onclick="closeModal1()">&times;</span>
+          <div class="modal-content">
+        
+            <div class="mySlides1">
+              <div class="numbertext">1 / 4</div>
+              <img src="images\bed1.jpg" style="width:100%; height: 500px;">
+            </div>
+        
+            <div class="mySlides1">
+              <div class="numbertext">2 / 4</div>
+              <img src="images\bed2.jpg" style="width:100%; height: 500px;">
+            </div>
+        
+            <div class="mySlides1">
+              <div class="numbertext">3 / 4</div>
+              <img src="images\bed3.jpg" style="width:100%; height: 500px;">
+            </div>
+            
+            <div class="mySlides1">
+              <div class="numbertext">4 / 4</div>
+              <img src="images\bed4.jpg" style="width:100%; height: 500px;">
+            </div>
+            
+            <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+        
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+        
+        
+            <div class="column">
+              <img class="demo cursor" src="images\bed1.jpg" style="width:100%; height: 150px;" onclick="currentSlide1(1)" alt="Nature and sunrise">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images\bed2.jpg" style="width:100%; height: 150px;" onclick="currentSlide1(2)" alt="Snow">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images\bed3.jpg" style="width:100%; height: 150px;" onclick="currentSlide1(3)" alt="Mountains and fjords">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images\bed4.jpg" style="width:100%; height: 150px;" onclick="currentSlide1(4)" alt="Northern Lights">
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+  </div>
+  <footer>&copy; Deepa 2020</footer>
+  <script src="script.js"></script>
+</body>
+</html>

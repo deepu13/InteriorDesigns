@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="contact.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <h1 class="title"><a href="index.html" style="color: white; text-decoration: none;">Interior Designs</a></h1>
+    <input type="text" class="search">
+    <nav class="menu">
+      <i class="fa fa-bars" style="color:black; font-size: 2em; margin-left: 1%;"></i>
+     <div class="menubar">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="design.html">Designs</a>
+      <a href="project.html">Projects</a>
+      <a href="contact.html">Contact</a>
+     </div>
+    </nav>
+  </header>
+  <div class="fullbody">
+    <h1 class="heading">Book your order</h1>
+    <span>Loved our work?? Then why are you waiting? 
+      Fill up this form to book your orders!!<br><br></span>
+      <!-- <table><form>
+        <tr>
+          <td><label>Enter your name:</label></td>
+          <td><input type="text" placeholder="Your name"></td>
+        </tr>
+        <tr>
+          <td><label>Enter your contact number:</label></td>
+          <td><input type="number" placeholder="Contact number"></td>
+        </tr>
+        <tr>
+          <td><label>Enter your E-mail id:</label></td>
+          <td><input type="email" placeholder="E-mail id"></td>
+        </tr>
+        <tr>
+          <td><label>Choose the type</label></td>
+          <td>
+            <select>
+            <option>Residential</option>
+            <option>Commercial</option>
+            <option>Official</option>
+            <option>Resturant</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td>Choose the date:</td>
+          <td><input type="date"></td>
+        </tr>
+        
+      </form></table> -->
+      <br><br>
+      <h1 class="heading">Contact us!</h1>
+    <span>Feel free to leave your queries and feedbacks! 
+      And surely expect a callback from us!!<br><br></span>
+      <table><form method="POST" action="contact.php">
+        <tr>
+          <td><label>Enter your name:</label></td>
+          <td><input name="name" type="text" placeholder="Your name"></td>
+        </tr>
+        <tr>
+          <td><label>Enter your contact number:</label></td>
+          <td><input name="number" type="number" placeholder="Contact number"></td>
+        </tr>
+        <tr>
+          <td><label>Enter your E-mail id:</label></td>
+          <td><input name="email" type="email" placeholder="E-mail id"></td>
+        </tr>
+        <tr>
+          <td><label>Enter your queries / feedback:</label></td>
+          <td><textarea name="feedback" style="width: 160px; height: 50px;"></textarea></td>
+        </tr>
+        <tr>
+          <td><!-- <label>Enter your queries / feedback:</label> --></td>
+          <td><input type="submit" name="submit"/></td>
+        </tr>
+        </form></table>
+        <footer>&copy; Deepa 2020</footer>
+        <script>
+          $(".fa-bars").click(function() {
+           if($(".menubar").css("display") === "block") {
+            $(".menubar").hide()
+           } else {
+            $(".menubar").show()
+           }
+          })
+        </script>
+</body>
+</html>
